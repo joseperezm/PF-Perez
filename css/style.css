@@ -178,6 +178,10 @@ body {
   font-weight: bold;
 }
 
+.tabla-horario td:hover {
+  background-color: darkgray;
+}
+
 .volver-arriba {
   text-align: right;
   background-color: lightgrey;
