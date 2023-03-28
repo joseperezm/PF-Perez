@@ -12,6 +12,39 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+      
+      th, td {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid black;
+      }
+      
+      th {
+        background-color: #ddd;
+      }
+      
+      td:first-child {
+        font-weight: bold;
+      }
+      
+      @media (max-width: 768px) {
+        table {
+          font-size: 12px;
+        }
+        
+        td, th {
+          padding: 5px;
+        }
+      }
+    </style>
 </head>
 <body>
     <header>
@@ -161,8 +194,103 @@
           </div>
           <div class="row justify-content-center">
             <div class="col-sm-12 col-md-8" data-aos="fade-right">
-              <img src="./imagenes/cal.webp" class="img-fluid imagen-horario" alt="nuestro horario">
-            </div>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Hora</th>
+                      <th>Lunes</th>
+                      <th>Martes</th>
+                      <th>Miércoles</th>
+                      <th>Jueves</th>
+                      <th>Viernes</th>
+                      <th>Sábado</th>
+                      <th>Domingo</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>9:00-10:00</td>
+                      <td>BJJ Básico</td>
+                      <td></td>
+                      <td>BJJ Básico</td>
+                      <td></td>
+                      <td>BJJ Básico</td>
+                      <td>Crossfit</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>10:00-11:00</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>11:00-12:00</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>12:00-13:00</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>16:00-17:00</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>18:00-19:00</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>20:00-21:00</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>22:00-23:00</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
           </div>
         </div>
       </section>
