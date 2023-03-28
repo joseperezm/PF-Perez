@@ -399,6 +399,15 @@ textarea {
   .celda-contacto {
     width: 350px;
   }
+  table {
+    font-size: 8px;
+  }
+  th {
+    padding: 5px;
+  }
+  td {
+    padding: 3px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
